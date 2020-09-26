@@ -4,8 +4,8 @@ import "../styles/show.scss";
 import { Link } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 
-//The best common name for both a movie and a tv show i could think of
-//is "show". I think it's a better term than for example "item".
+//Najbolji zajednički naziv za filmove i tv serije što sam mogao smisliti
+//je "show". Mislim da je prikladniji i opisniji pojam nego npr. "item".
 
 function Show({ title, imagePath, rating, id, itemType }) {
   const poster = "https://image.tmdb.org/t/p/w200" + imagePath;
