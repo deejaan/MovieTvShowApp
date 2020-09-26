@@ -1,0 +1,18 @@
+.detailsContainer {
+  text-align: left;
+  margin-top: 2em;
+}
+.backBtn {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 0.5em;
+}
+.backBtn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.backIcon {
+  content: url(../icons/back-icon20.png);
+  align-self: center;
+  margin-right: 0.1em;
+}

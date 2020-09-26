@@ -1,0 +1,25 @@
+.navBar {
+  width: fit-content;
+}
+.navBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navBar ul li {
+  display: inline;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  font-size: large;
+  font-weight: bold;
+}
+.link,
+.activeLink {
+  padding: 0.2em;
+  box-shadow: 0.1em 0.2em 0.15em black;
+  color: black;
+  border-radius: 4px;
+}
+.activeLink {
+  background-color: silver;
+}

@@ -1,0 +1,17 @@
+.gridElement {
+  border: 2px solid silver;
+  border-radius: 6px;
+  max-width: 25em;
+  width: 100%;
+  margin: 0 auto;
+}
+.gridElement h3,
+.gridElement h4 {
+  margin: 0.4em;
+}
+.gridElement img {
+  margin-top: 0.6em;
+}
+.gridElement h4 {
+  color: goldenrod;
+}

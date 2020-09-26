@@ -1,0 +1,19 @@
+.searchBar {
+  width: 99%;
+  margin-top: 2em;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 0.3em;
+  display: flex;
+}
+.searchBar input {
+  border: none;
+  width: 100%;
+  font-family: "B612", Arial, Helvetica, sans-serif;
+}
+.searchIcon {
+  content: url(../icons/icons8-search-20.png);
+}
+input[type="search"]:focus {
+  outline: none;
+}
