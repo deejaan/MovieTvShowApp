@@ -65,11 +65,11 @@ function TvShows() {
                 <Show
                   key={item.id}
                   id={item.id}
-                  title={item.title}
+                  title={item.name}
                   imagePath={item.poster_path}
                   overview={item.overview}
                   rating={item.vote_average}
-                  releaseDate={item.release_date}
+                  releaseDate={item.first_air_date}
                   itemType="movies"
                 ></Show>
               ))
