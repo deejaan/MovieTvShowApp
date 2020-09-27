@@ -72,8 +72,14 @@ function Details({ match }) {
 
   const poster = "https://image.tmdb.org/t/p/w200" + details.poster_path;
   let releaseDate;
-  if (activeTab === "movies") releaseDate = details.release_date;
-  else if (activeTab === "tvshows") releaseDate = details.first_air_date;
+  let title;
+  if (activeTab === "movies") {
+    releaseDate = details.release_date;
+    title = details.title;
+  } else if (activeTab === "tvshows") {
+    releaseDate = details.first_air_date;
+    title = details.name;
+  }
 
   return (
     <div className="detailsContainer">
@@ -94,7 +100,7 @@ function Details({ match }) {
           <img src={poster} alt=""></img>
         )
       }
-      <h2>{details.title}</h2>
+      <h2>{title}</h2>
       <h4>Rating: {details.vote_average}</h4>
       <h4>Release Date: {releaseDate}</h4>
       <h4>Overview:</h4>
