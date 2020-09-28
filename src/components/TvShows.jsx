@@ -70,7 +70,7 @@ function TvShows() {
                   overview={item.overview}
                   rating={item.vote_average}
                   releaseDate={item.first_air_date}
-                  itemType="movies"
+                  itemType="tvshows"
                 ></Show>
               ))
         }
